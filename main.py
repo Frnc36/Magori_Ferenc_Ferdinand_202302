@@ -14,7 +14,7 @@ from oop import Ember
 # ede = Ember("Ede",25)
 # print(f"kor: {ede.nev}")
 # print(f"kor: {ede.kor}")
-
+print("III/A feladat, osztáy létrehozása, használata")
 ember = Ember("Ede",25)
 emberek = [ember]
 print(f"név: {ember.nev}")
