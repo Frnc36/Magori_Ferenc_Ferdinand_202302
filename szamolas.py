@@ -27,6 +27,18 @@ def szamolas(velszamok_lista):
         i +=1
     return paratlan
 
+""" def nagyobb(velszamok_lista):
+    nagyobb = velszamok_lista[0]
+    kisebb = velszamok_lista[0]
+    i = 0
+    while i < len(velszamok_lista):
+        if velszamok_lista[i] > nagyobb:
+            nagyobb = velszamok_lista[i]
+        if velszamok_lista[i] < kisebb:
+            kisebb = velszamok_lista[i]
+        i += 1
+    return nagyobb, kisebb """
+
 def nagyobb(velszamok_lista):
     nagyobb = velszamok_lista[0]
     i = 0
@@ -36,10 +48,20 @@ def nagyobb(velszamok_lista):
         i += 1
     return nagyobb
 
-def kiiras(paratlan, nagyobb):
+def kisebb(velszamok_lista):
+    kisebb = velszamok_lista[0]
+    i = 0
+    while i < len(velszamok_lista):
+        if velszamok_lista[i] < kisebb:
+            kisebb = velszamok_lista[i]
+        i += 1
+    return kisebb
+
+
+def kiiras(paratlan, nagyobb, kisebb):
     print("II/B feladat, számolás")
     print("páratlanok száma:",paratlan)
-    print("legnagyobb érték:",nagyobb)
+    print(f"legkisebb érték {kisebb}, legnagyobb érték: {nagyobb}")
 
 
 def fajlba_iras(paratlan):
