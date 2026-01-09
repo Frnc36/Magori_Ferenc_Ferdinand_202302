@@ -11,6 +11,12 @@
 # szamolas.fajlba_iras(paratlan)
 
 from oop import Ember
-ede = Ember("Ede",25)
-print(f"kor: {ede.nev}")
-print(f"kor: {ede.kor}")
+# ede = Ember("Ede",25)
+# print(f"kor: {ede.nev}")
+# print(f"kor: {ede.kor}")
+
+ember = Ember("Ede",25)
+emberek = [ember]
+print(f"név: {ember.nev}")
+print(f"kor: {ember.kor}")
+
